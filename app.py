@@ -14,7 +14,7 @@ st.markdown("""
     """, unsafe_allow_html=True)
 
 # تفعيل المحرك (استبدل الرمز بمفتاحك الخاص)
-API_KEY = "ضغ_مفتاح_جوجل_هنا"
+API_KEY = "AIzaSyDTfTUNgBEzzAajW63b9beryynnBGlaXFA"
 
 if API_KEY != "ضغ_مفتاح_جوجل_هنا":
     genai.configure(api_key=API_KEY)
