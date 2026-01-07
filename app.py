@@ -19,7 +19,7 @@ API_KEY = "AIzaSyDTfTUNgBEzzAajW63b9beryynnBGlaXFA"
 if API_KEY != "ضغ_مفتاح_جوجل_هنا":
     genai.configure(api_key=API_KEY)
     # استخدام فلاش لسرعة الاستجابة ودقة قراءة النصوص
-    model = genai.GenerativeModel('gemini-1.5-flash')
+    model = genai.GenerativeModel('gemini-1.5-flash-latest')
 
     st.title("💊 تطبيق MedAI للتعرف على الأدوية")
     st.write("قم بتصوير شريط الدواء بوضوح للحصول على تحليل دقيق.")
